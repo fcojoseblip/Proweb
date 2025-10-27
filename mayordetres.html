@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p id="message"></p>
+  <script> 
+  //Tres variables
+  let a=prompt("Dime el primer numero");   
+    let b=prompt("Dime el segundo numero");
+     let c=prompt("Dime el tercer numero");
+        //Comparar las tres variables y decir cual es la mayor
+        if(a>=b && a>=c){
+            document.getElementById("message").innerHTML="El numero mayor es: "+a;
+        }else if(b>=a && b>=c){
+            document.getElementById("message").innerHTML="El numero mayor es: "+b;
+        }else{
+            document.getElementById("message").innerHTML="El numero mayor es: "+c;
+        }
+    </script>
+</body>
+</html>
